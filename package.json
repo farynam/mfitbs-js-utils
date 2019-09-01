@@ -10,7 +10,7 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/farynam/js-utils.git"
+    "url": "https://github.com/farynam/mfitbs-js-utils.git"
   },
   "scripts": {
     "test": "node_modules/.bin/jest",
