@@ -12,6 +12,6 @@ disallows access:
 - private methods outside a module
 - private fields outside a module
 
-#Usage
+# Usage
 
 in module "example".
