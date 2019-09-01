@@ -1,10 +1,13 @@
 {
-  "name": "js-utils",
-  "version": "1.0.0",
+  "name": "mfitbs-js-utils",
+  "version": "1.0.1",
   "description": "Utils package",
   "main": "index.js",
   "author": "Marcin Faryna",
   "license": "Apache License 2.0",
+  "Keywords" :  ["private method", "java", "private access", "access private members", "public to private",
+    "private methods es6", "private methods es6 class", "method scoping", "field scope", "field scoping"],
+
   "repository": {
     "type": "git",
     "url": "https://github.com/farynam/js-utils.git"
