@@ -1,18 +1,29 @@
 {
   "name": "mfitbs-js-utils",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Utils package",
   "main": "index.js",
   "author": "Marcin Faryna",
   "license": "Apache License 2.0",
-  "Keywords" :  ["private method", "java", "private access", "access private members", "public to private",
-    "private methods es6", "private methods es6 class", "method scoping", "field scope", "field scoping"],
-
+  "Keywords": [
+    "private method",
+    "java",
+    "private access",
+    "access private members",
+    "public to private",
+    "private methods es6",
+    "private methods es6 class",
+    "method scoping",
+    "field scope",
+    "field scoping"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/farynam/mfitbs-js-utils.git"
   },
   "scripts": {
+    "publish": "gulp",
+    "build": "gulp",
     "test": "node_modules/.bin/jest",
     "runapp": "node target/.compiled/example/index.js",
     "compile": "babel src/js --out-dir target/.compiled/app --source-maps --ignore '**/excl/*' --copy-files"
@@ -23,11 +34,10 @@
     "@babel/preset-env": "7.4.5",
     "babel-core": "^6.26.3"
   },
-
   "devDependencies": {
+    "gulp": "4.0.2",
     "jest": "24.9.0"
   },
-
   "babel": {
     "presets": [
       [
