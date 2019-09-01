@@ -1,6 +1,6 @@
 {
   "name": "mfitbs-js-utils",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Utils package",
   "main": "index.js",
   "author": "Marcin Faryna",
@@ -22,8 +22,7 @@
     "url": "https://github.com/farynam/mfitbs-js-utils.git"
   },
   "scripts": {
-    "publish": "gulp",
-    "build": "gulp",
+    "pub": "gulp",
     "test": "node_modules/.bin/jest",
     "runapp": "node target/.compiled/example/index.js",
     "compile": "babel src/js --out-dir target/.compiled/app --source-maps --ignore '**/excl/*' --copy-files"
