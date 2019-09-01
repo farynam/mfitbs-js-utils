@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Marcin Faryna",
   "license": "Apache License 2.0",
-  "Keywords": [
+  "keywords": [
     "private method",
     "java",
     "private access",
@@ -15,7 +15,9 @@
     "private methods es6 class",
     "method scoping",
     "field scope",
-    "field scoping"
+    "field scoping",
+    "utility",
+    "helper"
   ],
   "repository": {
     "type": "git",

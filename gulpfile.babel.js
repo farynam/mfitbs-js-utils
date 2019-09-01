@@ -49,7 +49,7 @@ function rmDir(path) {
 
 
 function clean(cb) {
-    rmDir("target");
+    rmDir(rootDir);
     cb();
 }
 
