@@ -23,6 +23,7 @@
   },
   "scripts": {
     "pub": "gulp",
+    "clean" : "gulp clean",
     "test": "node_modules/.bin/jest",
     "runapp": "node target/.compiled/example/index.js",
     "compile": "babel src/js --out-dir target/.compiled/app --source-maps --ignore '**/excl/*' --copy-files"
