@@ -7,6 +7,7 @@ Solve problem for ex. private methods for es6 classes.
 - access private -> public
 - access public -> private
 - access private object fields
+- access public fields from private methods
 
 disallows access:
 - private methods outside a module
