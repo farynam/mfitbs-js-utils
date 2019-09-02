@@ -1,6 +1,6 @@
 {
   "name": "mfitbs-js-utils",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Utils package",
   "main": "index.js",
   "author": "Marcin Faryna",
@@ -24,6 +24,7 @@
     "url": "https://github.com/farynam/mfitbs-js-utils.git"
   },
   "scripts": {
+    "build" : "gulp build",
     "pub": "gulp",
     "test": "node_modules/.bin/jest",
     "runapp": "node target/.compiled/example/index.js",
@@ -32,11 +33,13 @@
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/node": "7.5.0",
-    "@babel/preset-env": "7.4.5",
     "babel-core": "^6.26.3"
   },
   "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.4.5",
     "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
     "jest": "24.9.0"
   },
   "babel": {

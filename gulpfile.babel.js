@@ -19,12 +19,15 @@
 const { series, src, dest } = require('gulp');
 const { exec } = require('child_process');
 const fs = require("fs");
-
+const babel = require('gulp-babel');
 
 const rootDir = "target/out";
 
 function handleScripts() {
     return src('src/js/**/*.js')
+        .pipe(babel({
+            presets: ['@babel/env']
+        }))
         .pipe(dest(rootDir));
 }
 
@@ -64,6 +67,7 @@ function publish() {
     return run;
 }
 
+exports.build = series(clean, handleScripts, handleResources);
 exports.publish = publish;
 exports.clean = clean;
-exports.default = series(clean, handleScripts, handleResources, publish);
+exports.default = series(exports.build, publish);
